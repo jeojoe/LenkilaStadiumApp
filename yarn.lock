@@ -52,6 +52,10 @@ acorn@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.1.1.tgz#53fe161111f912ab999ee887a90a0bc52822fd75"
 
+adm-zip@^0.4.7:
+  version "0.4.7"
+  resolved "https://registry.yarnpkg.com/adm-zip/-/adm-zip-0.4.7.tgz#8606c2cbf1c426ce8c8ec00174447fd49b6eafc1"
+
 ajv-keywords@^1.0.0:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-1.5.1.tgz#314dd0a4b3368fad3dfcdc54ede6171b886daf3c"
@@ -915,6 +919,10 @@ base64-js@0.0.8:
 base64-js@1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.1.2.tgz#d6400cac1c4c660976d90d07a04351d89395f5e8"
+
+base64-js@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.2.0.tgz#a39992d723584811982be5e290bb6a53d86700f1"
 
 base64-js@^1.1.2:
   version "1.2.1"
@@ -3512,6 +3520,14 @@ plist@^1.2.0:
     xmlbuilder "4.0.0"
     xmldom "0.1.x"
 
+plist@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/plist/-/plist-2.1.0.tgz#57ccdb7a0821df21831217a3cad54e3e146a1025"
+  dependencies:
+    base64-js "1.2.0"
+    xmlbuilder "8.2.2"
+    xmldom "0.1.x"
+
 pluralize@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-4.0.0.tgz#59b708c1c0190a2f692f1c7618c446b052fd1762"
@@ -3630,6 +3646,10 @@ react-devtools-core@2.3.1:
   dependencies:
     shell-quote "^1.6.1"
     ws "^2.0.3"
+
+react-native-fbsdk@0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/react-native-fbsdk/-/react-native-fbsdk-0.6.0.tgz#08fdc00e9ca777f724a70029a5b1c3794b49b882"
 
 react-native@0.47.1:
   version "0.47.1"
@@ -4663,7 +4683,7 @@ ws@^2.0.3:
     safe-buffer "~5.0.1"
     ultron "~1.1.0"
 
-xcode@^0.9.1:
+xcode@^0.9.1, xcode@^0.9.3:
   version "0.9.3"
   resolved "https://registry.yarnpkg.com/xcode/-/xcode-0.9.3.tgz#910a89c16aee6cc0b42ca805a6d0b4cf87211cf3"
   dependencies:
